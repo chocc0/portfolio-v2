@@ -1,0 +1,43 @@
+@import "tailwindcss";
+/* 
+.hedvig-letters-serif-<uniquifier> {
+  font-family: "Hedvig Letters Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lexend-deca-<uniquifier> {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.lexend-exa-<uniquifier> {
+  font-family: "Lexend Exa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+.h1 {
+  font-family: "Hedvig Letters Serif", serif;
+  font-size: 60pt;
+}
+
+.h3 {
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 18pt;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12pt;
+}
+
+.nav {
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 12pt;
+}
