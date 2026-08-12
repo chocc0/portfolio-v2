@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] }),
-    tailwindcss()
+    tailwindcss(),
+    base: "https://chocc0.github.io/portfolio-v2",
   ],
 })
