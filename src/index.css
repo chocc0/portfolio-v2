@@ -33,3 +33,10 @@ p {
   font-family: "Lexend Exa", sans-serif;
   font-size: 12pt;
 }
+
+.exp {
+  list-style-type: square;
+  font-size: 10pt;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+}
