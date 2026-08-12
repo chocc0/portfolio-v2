@@ -24,7 +24,7 @@ function Experience(){
     ]
 
     return (
-        <div id="experience" className="flex flex-col w-[60%] sm:w-full gap-15 items-center h-auto px-[100px] py-[60px] justify-center snap-start">
+        <div id="experience" className="flex flex-col w-[60%] gap-15 items-center h-auto px-[100px] py-[60px] justify-center snap-start">
             {experiences && experiences.map((e, index) => <Block {...e}/>)}
         </div>
     )
