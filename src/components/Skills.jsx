@@ -60,7 +60,7 @@ function Skills() {
 }
 
 function SkillBlock(s) {
-    return (<div className="flex items-center gap-2 min-w-20 p-2 bg-neutral-bg1 rounded-sm">{s.logokey ? <img src={'/icons/' + s.logokey + '.svg'} alt={s.name} className="size-6 "/>: ''}<p>{s.name}</p></div>)
+    return (<div className="flex items-center gap-2 min-w-20 p-2 bg-neutral-bg1 rounded-sm">{s.logokey ? <img src={`${import.meta.env.BASE_URL}/icons/` + s.logokey + '.svg'} alt={s.name} className="size-6 "/>: ''}<p>{s.name}</p></div>)
 }
 
 export default Skills;
