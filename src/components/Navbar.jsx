@@ -1,6 +1,6 @@
 function Navbar() {
     return (
-        <div className="flex flex-col mx-[100px] my-[80px] justify-between absolute pt-[120px] gap-[120px]">
+        <div className="navbar flex flex-col mx-[100px] my-[80px] justify-between absolute pt-[120px] gap-[120px]">
             <div>
                 <p className="h1">Mandy Sun</p>
                 <p className="h3">Designer. Programmer. Artist.</p>

@@ -40,3 +40,36 @@ p {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 300;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .h1 {
+        font-size: 28pt;
+    }
+
+    .h3 {
+        font-size: 10pt;
+    }
+
+    p {
+        font-size: 8pt;
+    }
+
+    .navbar {
+      position: static;
+    }
+
+    .app {
+      flex-direction: column;
+      height: auto;
+    }
+
+    #about, #skills, #experience, #contact {
+      width: 100%;
+    }
+
+    .content {
+      overflow: auto;
+      padding: 20px;
+    }
+}

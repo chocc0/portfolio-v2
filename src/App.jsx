@@ -10,9 +10,9 @@ import Background from './components/Background'
 
 function App() {
   return (
-    <div className='h-screen w-screen items-stretch'>
+    <div className='app flex h-screen w-screen items-stretch gap-20 sm:flex-col'>
       <Navbar/>
-      <div className='px-[100px] py-[80px] flex flex-col overflow-scroll w-full h-screen items-end snap-y gap-30'>
+      <div className='content px-[100px] py-[80px] flex flex-col overflow-scroll sm:overflow-auto w-full h-screen items-end snap-y gap-30'>
         <div className='bg-amber-700 min-h-screen snap-center'></div>
         <About/>
         <Experience />

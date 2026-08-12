@@ -24,7 +24,7 @@ function Experience(){
     ]
 
     return (
-        <div id="experience" className="flex flex-col w-[60%] gap-15 items-center h-auto px-[100px] py-[60px] justify-center snap-start">
+        <div id="experience" className="flex flex-col w-[60%] sm:w-full gap-15 items-center h-auto px-[100px] py-[60px] justify-center snap-start">
             {experiences && experiences.map((e, index) => <Block {...e}/>)}
         </div>
     )
@@ -34,7 +34,7 @@ function Block(event) {
     const desc = event.description.split(";")
     return (
         <div className="flex gap-[60px] w-full">
-            <img alt={event.title} src={event.image} className="size-30 object-contain rounded-md"></img>
+            <img alt={event.title} src={`${import.meta.env.BASE_URL}`+ event.image} className="size-30 object-contain rounded-md"></img>
             <div>
                 <p>{event.title}</p>
                 <ul className="exp">
