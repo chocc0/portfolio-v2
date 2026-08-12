@@ -6,10 +6,10 @@ function Navbar() {
                 <p className="h3">Designer. Programmer. Artist.</p>
             </div>
             <div className="flex flex-col gap-3 justify-between items-start">
-                <button className="nav">ABOUT</button>
-                <button className="nav">EXPERIENCE</button>
-                <button className="nav">SKILLS</button>
-                <button className="nav">CONTACT</button>
+                <a className="nav" href="#about">ABOUT</a>
+                <a className="nav" href="#experience">EXPERIENCE</a>
+                <a className="nav" href="#skills">SKILLS</a>
+                <a className="nav" href="#contact">CONTACT</a>
             </div>
         </div>
     )

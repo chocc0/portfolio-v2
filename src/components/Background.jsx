@@ -108,10 +108,10 @@ export default function Background() {
     if (!mount) return;
 
     const palette = [
-      new THREE.Color(0.749, 0.757, 1),
-      new THREE.Color(1, 1, 0.67),
-      new THREE.Color(1.0, 0.929, 0.918),
-      new THREE.Color(0.886, 1, 0.643)
+      new THREE.Color(1, 0.878, 0.878), // pink
+      new THREE.Color(1, 0.973, 0.827), // yellow
+      new THREE.Color(0.843, 0.933, 1), // blue
+      new THREE.Color(0.91, 0.969, 0.812) // green
     ];
 
     const scene = new THREE.Scene();
@@ -137,7 +137,7 @@ export default function Background() {
       u_blobColors: {
         value: Array.from({ length: MAX_BLOBS }, () => new THREE.Color()),
       },
-      u_bgColor: { value: new THREE.Color(0.996, 1, 0.992) },
+      u_bgColor: { value: new THREE.Color(1.0, 0.996, 0.992) },
     };
 
     const geometry = new THREE.BufferGeometry();
