@@ -10,6 +10,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
     tailwindcss(),
   ],
-  base: "https://chocc0.github.io/portfolio-v2",
-
+  base: "/portfolio-v2/"
 })
